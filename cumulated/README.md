@@ -63,10 +63,10 @@ The structure of the "covid-19-vaccines.json":
             // Current source: key of ../valuesets/vaccine-prophylaxis.json "valueSetValues" entries.
             "prophylaxis_code": "1119349007",
             // Name of authorization holder as string
-            // Current source: "display" value of ../valuesets/vaccines-auth-holders.json "valueSetValues" entries.
+            // Current source: "display" value of ../valuesets/vaccine-mah-manf.json "valueSetValues" entries.
             "auth_holder": "BioNTech Manufacturing GmbH",
             // Code of authorization holder as string
-            // Current source: key of ../valuesets/vaccines-auth-holders.json "valueSetValues" entries.
+            // Current source: key of ../valuesets/vaccine-mah-manf.json "valueSetValues" entries.
             "auth_holder_code": "ORG-100030215",
             // If authorization is active
             // Current source: "active" value of ../valuesets/vaccine-medical-product.json "valueSetValues" entries.
@@ -113,12 +113,12 @@ The structure of the "covid-19-tests.json":
             // Current source: "display" value of ../valuesets/test-name.json "valueSetValues" entries.
             "name": "Panbio COVID-19 Ag Test",
             // Type of test as string
-            // Type of test, as long as it is found in ../valuesets/test-manufacturer-and-name.json the value is "Rapid immunoassay"
+            // Type of test, as long as it is found in ../valuesets/test-manf.json the value is "Rapid immunoassay"
             // One object needs to contain the "Nucleic acid amplification with probe detection"
             // Current source: "display" value of ../valuesets/test-type.json "valueSetValues" entries.
             "type": "Rapid immunoassay",
             // Type code of test type as string
-            // If type of test is "Rapid immunossay" and found in ../valuesets/test-manufacturer-and-name.json, key of array pos [0]
+            // If type of test is "Rapid immunossay" and found in ../valuesets/test-manf.json, key of array pos [0]
             // If type of test is "Nucleic acid amplification with probe detection", key of array pos [1]
             // Current source: key of ../valuesets/test-type.json "valueSetValues" entries.
             "type_code": "LP217198-3",
