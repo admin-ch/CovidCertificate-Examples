@@ -1,0 +1,21 @@
+{
+    "ver": "1.0.0",
+	"nam": {
+        "fn": "Červenková Panklová",
+        "fnt": "CERVENKOVA<PANKLOVA",
+        "gn": "Jiřina Alena",
+        "gnt": "JIRINA<ALENA"
+    },
+    "dob": "1987-03-22",
+    "r": [
+        {
+            "tg": "840539006",
+            "fr": "2021-04-22",
+            "co": "CH",
+            "is": "Bundesamt für Gesundheit (BAG)",
+            "df": "2021-05-01",
+            "du": "2021-10-21",
+            "ci": "01:CH:PlA8UWS60Z4RZVALl6GAZ:12"
+        }
+    ]
+}

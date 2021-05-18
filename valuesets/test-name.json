@@ -1,0 +1,188 @@
+{
+  "valueSetId": "covid-19-lab-test-name",
+  "valueSetDate": "2021-04-27",
+  "valueSetValues": {
+    "1232": {
+      "display": "Panbio COVID-19 Ag Test",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1304": {
+      "display": "AMP Rapid Test SARS-CoV-2 Ag",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1065": {
+      "display": "Veritor System Rapid Detection of SARS-CoV-2",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1331": {
+      "display": "SARS-CoV-2 Antigen Rapid Test Kit",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1484": {
+      "display": "Wantai SARS-CoV-2 Ag Rapid Test (FIA)",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1242": {
+      "display": "NowCheck COVID-19 Ag Test",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1223": {
+      "display": "BIOSYNEX COVID-19 Ag BSS",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1173": {
+      "display": "CerTest SARS-CoV-2 Card test",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1244": {
+      "display": "Genbody COVID-19 Ag Test",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1360": {
+      "display": "COVID-19 Ag Test Kit",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1363": {
+      "display": "Covid-19 Antigen Rapid Test Kit",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1767": {
+      "display": "Coronavirus Ag Rapid Test Cassette",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1333": {
+      "display": "COVID-19 Rapid Antigen Test (Colloidal Gold)",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1268": {
+      "display": "LumiraDx SARS-CoV-2 Ag Test",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1180": {
+      "display": "MEDsan SARS-CoV-2 Antigen Rapid Test",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1481": {
+      "display": "Rapid SARS-CoV-2 Antigen Test Card",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1162": {
+      "display": "NADAL COVID-19 Ag Test",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1271": {
+      "display": "Exdia COVID-19 Ag",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1341": {
+      "display": "SARS-CoV-2 Antigen Rapid Test (Immunochromatography)",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1097": {
+      "display": "Sofia SARS Antigen FIA",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1489": {
+      "display": "COVID-19 Antigen Rapid Test Kit (Swab)",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "344": {
+      "display": "STANDARD F COVID-19 Ag FIA",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "345": {
+      "display": "STANDARD Q COVID-19 Ag Test",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1218": {
+      "display": "CLINITEST Rapid Covid-19 Antigen Test",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1278": {
+      "display": "Rapid SARS-CoV-2 Antigen Test Card",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    },
+    "1343": {
+      "display": "Coronavirus Ag Rapid Test Cassette (Swab)",
+      "lang": "en",
+      "active": true,
+      "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices",
+      "version": "2021-04-22 02:23:55 CET"
+    }
+  }
+}

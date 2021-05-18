@@ -1,0 +1,20 @@
+{
+  "valueSetId": "covid-19-test-type",
+  "valueSetDate": "2021-05-05",
+  "valueSetValues": {
+    "LP217198-3": {
+      "display": "Rapid immunoassay",
+      "lang": "en",
+      "active": true,
+      "version": "http://covid-19-test-type/1",
+      "system": "urn:oid:2.16.840.1.113883.6.1"
+    },
+    "LP6464-4": {
+      "display": "Nucleic acid amplification with probe detection",
+      "lang": "en",
+      "active": true,
+      "version": "http://covid-19-test-type/1",
+      "system": "urn:oid:2.16.840.1.113883.6.1"
+    }
+  }
+}

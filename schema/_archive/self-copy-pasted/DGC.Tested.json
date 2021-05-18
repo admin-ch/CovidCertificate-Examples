@@ -1,0 +1,304 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "https://ec.europa.eu/dgc/DGC.schema.json",
+  "title": "EU DGC",
+  "description": "EU Digital Green Certificate",
+  "required": [
+    "nam",
+    "dob",
+    "dsc"
+  ],
+  "type": "object",
+  "properties": {
+    "nam": {
+      "description": "Surname(s), forename(s) - in that order",
+      "type": "array",
+      "entry": {
+        "description": "Person name: Surname(s), forename(s) - in that order",
+        "required": [
+          "_fn",
+          "_gn"
+        ],
+        "type": "object",
+        "properties": {
+          "fn": {
+            "title": "Family name",
+            "description": "The family name(s) of the person addressed in the certificate",
+            "type": "string",
+            "maxLength": 50,
+            "examples": [
+              "Červenková Panklová"
+            ]
+          },
+          "_fn": {
+            "title": "Standardised family name",
+            "description": "The family name(s) of the person transliterated",
+            "type": "string",
+            "maxLength": 50
+          },
+          "gn": {
+            "title": "Given name",
+            "description": "The given name(s) of the person addressed in the certificate",
+            "type": "string",
+            "maxLength": 50,
+            "examples": [
+              "Jiřina Alena"
+            ]
+          },
+          "_gn": {
+            "title": "Standardised given name",
+            "description": "The given name(s) of the person transliterated",
+            "type": "string",
+            "maxLength": 50
+          }
+        }
+      },
+      "minNam": 1
+    },
+    "dob": {
+      "description": "Date type ISO 8601 - date part only, restricted to range 1900-2099",
+      "type": "string",
+      "pattern": "[19|20][0-9][0-9]-(0[1-9]|1[0-2])-([0-2][1-9]|3[0|1])"
+    },
+    "dsc": {
+      "type": "string",
+      "maxLength": 16,
+      "contentMediaType": "text/plain"
+    },
+    "t": {
+      "description": "Test Entry",
+      "required": [
+        "tg",
+        "tt",
+        "sc",
+        "tr",
+        "tc",
+        "co",
+        "is",
+        "ci"
+      ],
+      "type": "object",
+      "properties": {
+        "tg": {
+          "description": "EU eHealthNetwork: Value Sets for Digital Green Certificates. version 1.0, 2021-04-16, section 2.1",
+          "type": "object",
+          "required": [
+            "code",
+            "system"
+          ],
+          "oneOf": [
+            {
+              "code": {
+                "const": "840539006"
+              },
+              "system": {
+                "const": "2.16.840.1.113883.6.96"
+              },
+              "version": {
+                "const": "2021-01-31"
+              }
+            }
+          ]
+        },
+        "tt": {
+          "description": "Type of Test",
+          "type": "string"
+        },
+        "nm": {
+          "description": "Test Name",
+          "type": "string"
+        },
+        "ma": {
+          "description": "EU eHealthNetwork: Value Sets for Digital Green Certificates. version 1.0, 2021-04-16, section 2.8",
+          "type": "object",
+          "required": [
+            "code"
+          ],
+          "oneOf": [
+            {
+              "code": {
+                "const": "1232"
+              }
+            },
+            {
+              "code": {
+                "const": "1304"
+              }
+            },
+            {
+              "code": {
+                "const": "1065"
+              }
+            },
+            {
+              "code": {
+                "const": "1331"
+              }
+            },
+            {
+              "code": {
+                "const": "1484"
+              }
+            },
+            {
+              "code": {
+                "const": "1242"
+              }
+            },
+            {
+              "code": {
+                "const": "1223"
+              }
+            },
+            {
+              "code": {
+                "const": "1173"
+              }
+            },
+            {
+              "code": {
+                "const": "1244"
+              }
+            },
+            {
+              "code": {
+                "const": "1360"
+              }
+            },
+            {
+              "code": {
+                "const": "1363"
+              }
+            },
+            {
+              "code": {
+                "const": "1767"
+              }
+            },
+            {
+              "code": {
+                "const": "1333"
+              }
+            },
+            {
+              "code": {
+                "const": "1268"
+              }
+            },
+            {
+              "code": {
+                "const": "1180"
+              }
+            },
+            {
+              "code": {
+                "const": "1481"
+              }
+            },
+            {
+              "code": {
+                "const": "1162"
+              }
+            },
+            {
+              "code": {
+                "const": "1271"
+              }
+            },
+            {
+              "code": {
+                "const": "1341"
+              }
+            },
+            {
+              "code": {
+                "const": "1097"
+              }
+            },
+            {
+              "code": {
+                "const": "1489"
+              }
+            },
+            {
+              "code": {
+                "const": "344"
+              }
+            },
+            {
+              "code": {
+                "const": "345"
+              }
+            },
+            {
+              "code": {
+                "const": "1218"
+              }
+            },
+            {
+              "code": {
+                "const": "1278"
+              }
+            },
+            {
+              "code": {
+                "const": "1343"
+              }
+            }
+          ]
+        },
+        "sc": {
+          "description": "Date/Time of Sample Collection",
+          "type": "string",
+          "format": "date-time"
+        },
+        "dr": {
+          "description": "Date/Time of Test Result",
+          "type": "string",
+          "format": "date-time"
+        },
+        "tr": {
+          "description": "EU eHealthNetwork: Value Sets for Digital Green Certificates. version 1.0, 2021-04-16, section 2.9",
+          "type": "object",
+          "required": [
+            "code"
+          ],
+          "oneOf": [
+            {
+              "code": {
+                "const": "260415000"
+              }
+            },
+            {
+              "code": {
+                "const": "260373001"
+              }
+            }
+          ]
+        },
+        "tc": {
+          "description": "Testing Centre",
+          "type": "string",
+          "maxLength": 50
+        },
+        "co": {
+          "description": "Country of Vaccination / Test, ISO 3166 where possible",
+          "type": "string",
+          "pattern": "[A-Z]{1,10}"
+        },
+        "is": {
+          "description": "Certificate Issuer",
+          "type": "string",
+          "maxLength": 50
+        },
+        "ci": {
+          "description": "Certificate Identifier, UVCI",
+          "type": "string",
+          "maxLength": 50,
+          "unique": true
+        }
+      },
+      "minEntry": 1
+    }
+  }
+}
