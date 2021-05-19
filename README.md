@@ -40,7 +40,7 @@ There is a general part, all cert types must include.
             "gnt": "FRANCOIS<JOAN"
         },
     // Date of Birth, ISO 8601
-    // String format date with pattern "[(19|20)\\d{2}-\\d{2}-\\d{2}", defined dob in "DGC.schema.json"
+    // String format date with pattern "(19|20)\\d{2}-\\d{2}-\\d{2}", defined dob in "DGC.schema.json"
     "dob": "1987-03-22",
     // Next elements would be the type spesific. Definition in separat chapters.
     ...
