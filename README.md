@@ -28,19 +28,19 @@ There is a general part, all cert types must include.
         {
             // Family name
             // String max length 50 chars
-            "fn": "Červenková Panklová",
-            // Standardised family name
-            // String max length 50 chars with pattern "^[A-Z<]*$"
-            "fnt": "CERVENKOVA<PANKLOVA",
+            "fn": "d'Arsøns - van Hale",
             // Given name
             // String max length 50 chars
-            "gn": "Jiřina Alena",
+            "gn": "François-Joan",
+            // Standardised family name
+            // String max length 50 chars with pattern "^[A-Z<]*$"
+            "fnt": "DARSONS<VAN<HALEN",
             // Standardised given name
             // String max length 50 chars with pattern "^[A-Z<]*$"
-            "gnt": "JIRINA<ALENA"
+            "gnt": "FRANCOIS<JOAN"
         },
     // Date of Birth, ISO 8601
-    // String format date with pattern "[19|20][0-9][0-9]-(0[1-9]|1[0-2])-([0-2][1-9]|3[0|1])", defined dob in "DGC.schema.json"
+    // String format date with pattern "[(19|20)\\d{2}-\\d{2}-\\d{2}", defined dob in "DGC.schema.json"
     "dob": "1987-03-22",
     // Next elements would be the type spesific. Definition in separat chapters.
     ...
@@ -70,17 +70,17 @@ The vaccination part is defined as followed:
             // vaccine or prophylaxis
             // Value Sets for Digital Green Certificates. version 1.0, 2021-04-16, section 2.2
             // Type string according vaccine-prophylaxis in "DGC.ValueSets.schema.json"
-            // SHALL contain one of the values "prophylaxis_code" defined in https://github.com/isels1/ch.covid.cert.examples/blob/main/cumulated/covid-19-vaccines.json
+            // SHALL contain one of the values "prophylaxis_code" defined in ./cumulated/covid-19-vaccines.json
             "vp": "1119349007",
             // vaccine medicinal product
             // Value Sets for Digital Green Certificates. version 1.0, 2021-04-16, section 2.3
             // Type string according vaccine-medicinal-product in "DGC.ValueSets.schema.json"
-            // SHALL contain one of the values "code" defined in https://github.com/isels1/ch.covid.cert.examples/blob/main/cumulated/covid-19-vaccines.json
-            "mp": "EU/1/20/1507",
+            // SHALL contain one of the values "code" defined in ./cumulated/covid-19-vaccines.json
+            "mp": "EU/1/20/1528",
             // Marketing Authorization Holder - if no MAH present, thenmanufacturer
             // Value Sets for Digital Green Certificates. version 1.0, 2021-04-16, section 2.3
             // Type string vaccine-mah-manf in "DGC.ValueSets.schema.json"
-            // SHALL contain one of the values "auth_holder_code" defined in https://github.com/isels1/ch.covid.cert.examples/blob/main/cumulated/covid-19-vaccines.json
+            // SHALL contain one of the values "auth_holder_code" defined in ./cumulated/covid-19-vaccines.json
             "ma": "ORG-100030215",
             // Dose number
             // Int min 1, max 9 according dose_posint in "DGC.Core.Types.schema.json"
@@ -131,13 +131,13 @@ The tested part is defined as followed:
             // Type string, according tt in "DGC.Types.schema.json"
             "tt": "LP217198-3",
             // Test Result
-            // "EU eHealthNetwork: Value Sets for Digital Green Certificates. version 1.0, 2021-04-16, section 2.9 --> List from us?!
+            // "EU eHealthNetwork: Value Sets for Digital Green Certificates. version 1.0, 2021-04-16, section 2.9
             // Type string, required code according test-reslut in "DGC.ValueSets.schema.json"
             "tr": "260415000",
             // Test Manufacturer
             // Value Sets for Digital Green Certificates. version 1.0, 2021-04-16, section 2.8
             // IF key tt is with the value LP217198-3 then the ma field SHALL be set.
-            // Type string, SHALL contain one of the values "manufacturer_code_eu" defined in https://github.com/isels1/ch.covid.cert.examples/blob/main/cumulated/covid-19-tests.json
+            // Type string, SHALL contain one of the values "manufacturer_code_eu" defined in ./cumulated/covid-19-tests.json
             "ma": "1232",
             // Date/Time of Sample Collection
             // Type string, format date-time ISO 8601 according sc in "DGC.Types.schema.json"
