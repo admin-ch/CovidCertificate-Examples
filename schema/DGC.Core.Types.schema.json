@@ -68,7 +68,7 @@
       }
     },
     "certificate_id": {
-      "description": "Certificate Identifier, format as per UVCI: Annex 2 in  https://ec.europa.eu/health/sites/health/files/ehealth/docs/vaccination-proof_interoperability-guidelines_en.pdf",
+      "description": "Certificate Identifier, format as per UVCI: Annex 2 in https://ec.europa.eu/health/sites/health/files/ehealth/docs/vaccination-proof_interoperability-guidelines_en.pdf",
       "type": "string",
       "maxLength": 50
     }
