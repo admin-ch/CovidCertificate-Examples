@@ -36,13 +36,13 @@ The vaccine-medicinal-product (key `mp` inside the `v` object) is the code of th
 There is no mapping needed for the vaccine-prophylaxis valueset. Use the [original file](https://github.com/ehn-digital-green-development/ehn-dgc-schema/blob/main/valuesets/vaccine-medicinal-product.json).
 The merged vaccine file inside the ../cumulated folder then should only contain the accepted vaccines from Switzerland. Accepted means NOT the approved ones in Switzerland, but those that are accepted when crossing the border!
 
-## vaccines-auth-holders
+## vaccines-mah-manf
 
 The vaccine manufacturer (key `ma` inside the `v` object) is the organisation id of the manufacturer.
 
 ### Mapping
 
-The [original valueset](https://github.com/ehn-digital-green-development/ehn-dgc-schema/blob/main/valuesets/vaccine-mah-manf.json) `vaccine-mah-manf.json` will be renamed to `vaccine-auth-holder.json`. Content stays the same.
+There is no need for a mapping. Use the [original valueset](https://github.com/ehn-digital-green-development/ehn-dgc-schema/blob/main/valuesets/vaccine-mah-manf.json).
 
 ## test-result
 
@@ -58,16 +58,16 @@ The test type valueset contains two different type of covid-19 test types. The R
 
 ### Mapping
 
-There is no original file to get the data from. Lookup in the confluence where the types get discribed.
+There is the newly created [original file](https://github.com/ehn-digital-green-development/ehn-dgc-schema/blob/main/valuesets/test-type.json) to get the data from. There are no differences between the two files.
 
-## test-manufacturer-and-name
+## test-manf
 
-The test manufacturer and name contains the list with all allowed test kits, containing the product and the manufacturer name.
+The test manufacturer and name file (test-manf) contains the list with all allowed test kits, containing the product and the manufacturer name.
 
 > **NOTE:** The valueset contains more tests than validated for Switzerland. This should be the whole list of the approved tests from the EU. For a list of approved tests in Switzerland, contact the "Listen der validierten SARS-CoV-2-Schnelltests1.pdf" file.
 
 ### Mapping
 
-The [original valueset](https://github.com/ehn-digital-green-development/ehn-dgc-schema/blob/main/valuesets/test-manf.json) `test-manf.json` will be renamed to `test-manufacturer-and-name.json`.
+The [original valueset](https://github.com/ehn-digital-green-development/ehn-dgc-schema/blob/main/valuesets/test-manf.json).
 
-The display name of the `valueSetValues` contains now the manufacturer and the product name comma sepparated. Therefore, split the file into the two files `test-manufacturer` and `test-name`, where the display should then contain only the manufacturer or the test name.
+The display name of the `valueSetValues` contains the manufacturer and the product name comma sepparated. Therefore, split the file into the two files `test-manufacturer` and `test-name`, where the display should then contain only the manufacturer or the test name.
