@@ -7,15 +7,18 @@
         "gnt": "FRANCOIS<JOAN"
     },
     "dob": "2009-02-28",
-    "r": [
+    "t": [
         {
             "tg": "840539006",
-            "fr": "2021-04-21",
+            "tt": "LP6464-4",
+            "nm": "PCR",
+            "tr": "260415000",
+            "sc": "2021-04-13T14:20:00+00:00",
+            "dr": "2021-04-13T20:00:01+00:00",
+            "tc": "Amavita Apotheke Bahnhof Bern",
             "co": "CH",
             "is": "Bundesamt für Gesundheit (BAG)",
-            "df": "2021-05-01",
-            "du": "2021-10-21",
             "ci": "01:CH:PlA8UWS60Z4RZVALl6GAZ:12"
         }
     ]
-}
+  }
