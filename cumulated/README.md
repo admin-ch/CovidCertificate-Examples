@@ -80,7 +80,7 @@ The structure of the "covid-19-vaccines.json":
 #### Maintenance
 
 Following table shows the mapping from the value sets to the cumulated files:
-| Cumulated JSON path | vaccine-medical-product.json | vaccine-prophylaxis.json | vaccines-auth-holders.json |
+| Cumulated JSON path | vaccine-medical-product.json | vaccine-prophylaxis.json | vaccines-mah-manf.json |
 | ------------------- | ---------------------------- | ------------------------ | -------------------------- |
 | entries[n].name | valueSetValues.x<sup>3</sup>.display | - | - |
 | entries[n].code | valueSetValues.x<sup>3</sup> | - | - |
