@@ -8,7 +8,7 @@ Examples for the swiss covid certificate
 
 ## Certificate Content
 
-The chapter [generic](#generic) describes the generic vaccination certificate part using the examlpe.
+The chapter [generic](#generic) describes the generic vaccination certificate part using the example.
 The chapters [vaccination](#vaccination), [tested](#tested) and [recovery](#recovery) describe the specific entries for the different kinds of the certificate.
 
 ### Generic
