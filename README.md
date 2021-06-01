@@ -6,7 +6,7 @@ Examples for the swiss covid certificate
 
 *Look up the newest Schema Version online, published by the EU ([GitHub Repo](https://github.com/eu-digital-green-certificates/ehn-dgc-schema)). The example .json files are based on the Document `Guidelines on Value Sets for Digital Green Certificates Version 1.0 2021-04-21` [Link](https://ec.europa.eu/health/sites/health/files/ehealth/docs/digital-green-certificates_dt-specifications_en.pdf)*
 
-## Cetificate Content
+## Certificate Content
 
 The chapter [generic](#generic) describes the generic vaccination certificate part using the examlpe.
 The chapters [vaccination](#vaccination), [tested](#tested) and [recovery](#recovery) describe the specific entries for the different kinds of the certificate.
@@ -216,9 +216,9 @@ For the specified values (like test manufacturer) use the mapping description in
 
 ## Valuesets
 
-The valuesets are documented and defined in the ./valueset folder. There the [readme](./valuesets) describes the mapping from the original valuesets published the EU to our. Then we use the valueset to get the ./cumulated files. These files should then contain the merged lists that can be used. More infomration and a mapping can be found in the [readme](./cumulated) of the cumulated folder.
+The valuesets are documented and defined in the ./valueset folder. There the [readme](./valuesets) describes the mapping from the original valuesets published by the EU to ours. Then we use the valueset to get the ./cumulated files. These files should then contain the merged lists that can be used. More information and a mapping can be found in the [readme](./cumulated) of the cumulated folder.
 
 ## Validation
 
 Use a json validator (ex: [JSON Schema Validator](https://www.jsonschemavalidator.net/)).
-Copy and paste in the "Select schema" field the DGC.schema.json file and in the "Input JSON" one of the example files.
+Copy and paste the DGC.schema.json file in the "Select schema" field and one of the example files in the "Input JSON" field.
