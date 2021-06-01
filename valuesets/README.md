@@ -64,7 +64,7 @@ There is the newly created [original file](https://github.com/ehn-digital-green-
 
 The test manufacturer and name file (test-manf) contains the list with all allowed test kits, containing the product and the manufacturer name.
 
-> **NOTE:** The valueset contains more tests than validated for Switzerland. This should be the whole list of the approved tests from the EU. For a list of approved tests in Switzerland, contact the "Listen der validierten SARS-CoV-2-Schnelltests1.pdf" file.
+> **NOTE:** The valueset contains more tests than validated for Switzerland. This should be the whole list of the approved tests from the EU. For a list of approved tests in Switzerland, consult the "Listen der validierten SARS-CoV-2-Schnelltests1.pdf" file.
 
 ### Mapping
 
