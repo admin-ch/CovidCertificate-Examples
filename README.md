@@ -28,13 +28,13 @@ There is a general part, all covid certificate types must include.
         {
             // Family name
             // String max length 50 chars
-            "fn": "d'Arsøns - van Hale",
+            "fn": "d'Arsøns - van Halen",
             // Given name
             // String max length 50 chars
             "gn": "François-Joan",
             // Standardised family name
             // String max length 50 chars with pattern "^[A-Z<]*$"
-            "fnt": "DARSONS<VAN<HALE",
+            "fnt": "DARSONS<VAN<HALEN",
             // Standardised given name
             // String max length 50 chars with pattern "^[A-Z<]*$"
             "gnt": "FRANCOIS<JOAN"
