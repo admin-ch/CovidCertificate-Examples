@@ -34,16 +34,6 @@
       "ch_accepted": true,
       "active": true
     }, {
-      "name": "Veritor System Rapid Detection of SARS-CoV-2",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "Becton Dickinson",
-      "swiss_test_kit": "",
-      "manufacturer_code_eu": "1065",
-      "eu_accepted": true,
-      "ch_accepted": true,
-      "active": true
-    }, {
       "name": "SARS-CoV-2 Antigen Rapid Test Kit",
       "type": "Rapid immunoassay",
       "type_code": "LP217198-3",
@@ -62,16 +52,6 @@
       "manufacturer_code_eu": "1484",
       "eu_accepted": true,
       "ch_accepted": false,
-      "active": true
-    }, {
-      "name": "NowCheck COVID-19 Ag Test",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "Bionote, Inc",
-      "swiss_test_kit": "11",
-      "manufacturer_code_eu": "1242",
-      "eu_accepted": true,
-      "ch_accepted": true,
       "active": true
     }, {
       "name": "BIOSYNEX COVID-19 Ag BSS",
