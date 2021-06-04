@@ -277,10 +277,10 @@
       "name": "COVID-VIRO",
       "type": "Rapid immunoassay",
       "type_code": "LP217198-3",
-      "manufacturer": "Boulogne Billancourt",
+      "manufacturer": "AAZ-LMB",
       "swiss_test_kit": "26",
       "manufacturer_code_eu": "1833",
-      "eu_accepted": false,
+      "eu_accepted": true,
       "ch_accepted": true,
       "active": true
     }, {
@@ -290,7 +290,7 @@
       "manufacturer": "Atlas Link Technology Co., Ltd., China",
       "swiss_test_kit": "22",
       "manufacturer_code_eu": "2010",
-      "eu_accepted": false,
+      "eu_accepted": true,
       "ch_accepted": true,
       "active": true
     }, {
@@ -350,7 +350,7 @@
       "manufacturer": "Xiamen Boson Biotech Co., Ltd., China",
       "swiss_test_kit": "16",
       "manufacturer_code_eu": "1278",
-      "eu_accepted": false,
+      "eu_accepted": true,
       "ch_accepted": true,
       "active": true
     }, {
@@ -390,7 +390,7 @@
       "manufacturer": "SD Biosensor, Inc.,Republic of Korea",
       "swiss_test_kit": "1",
       "manufacturer_code_eu": "1604",
-      "eu_accepted": false,
+      "eu_accepted": true,
       "ch_accepted": true,
       "active": true
     }, {
@@ -400,7 +400,7 @@
       "manufacturer": "Abbott Rapid Diagnostic GmbH, Jena (D)",
       "swiss_test_kit": "2",
       "manufacturer_code_eu": "1232",
-      "eu_accepted": false,
+      "eu_accepted": true,
       "ch_accepted": true,
       "active": true
     }, {
