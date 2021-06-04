@@ -264,16 +264,6 @@
       "ch_accepted": "",
       "active": true
     }, {
-      "name": "BIOSYNEX COVID-19 Ag+ BSS",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "BIOSYNEX SWISS SA, Fribourg (CH)",
-      "swiss_test_kit": "18",
-      "manufacturer_code_eu": "1494",
-      "eu_accepted": false,
-      "ch_accepted": true,
-      "active": true
-    }, {
       "name": "COVID-VIRO",
       "type": "Rapid immunoassay",
       "type_code": "LP217198-3",
@@ -294,56 +284,6 @@
       "ch_accepted": true,
       "active": true
     }, {
-      "name": "EBS SARS-CoV-2 Ag Rapid Test",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "Eurobio Scientific, Les Ulis (F)",
-      "swiss_test_kit": "25",
-      "manufacturer_code_eu": "1739",
-      "eu_accepted": false,
-      "ch_accepted": true,
-      "active": true
-    }, {
-      "name": "Willi Fox COVID-19 Antigen rapid test",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "Willi Fox GmbH, Basel (CH)",
-      "swiss_test_kit": "12",
-      "manufacturer_code_eu": "1276",
-      "eu_accepted": false,
-      "ch_accepted": true,
-      "active": true
-    }, {
-      "name": "-",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "Device Hangzhou Lysun Biotechnology Co., Ltd., China",
-      "swiss_test_kit": "7",
-      "manufacturer_code_eu": "-",
-      "eu_accepted": false,
-      "ch_accepted": true,
-      "active": true
-    }, {
-      "name": "SARS-CoV-2 Spike Protein Test Kit (Fluorescence Immunoassay)",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "Shenzhen Microprofit Biotech Co., Ltd., China",
-      "swiss_test_kit": "8",
-      "manufacturer_code_eu": "1228",
-      "eu_accepted": false,
-      "ch_accepted": true,
-      "active": true
-    }, {
-      "name": "COVID-19 Antigen Rapid Test",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "Hangzhou ALL Test Biotech Co. Ltd., China",
-      "swiss_test_kit": "10",
-      "manufacturer_code_eu": "1257",
-      "eu_accepted": false,
-      "ch_accepted": true,
-      "active": true
-    }, {
       "name": "Rapid SARS-CoV-2 Antigen Test Card",
       "type": "Rapid immunoassay",
       "type_code": "LP217198-3",
@@ -351,36 +291,6 @@
       "swiss_test_kit": "16",
       "manufacturer_code_eu": "1278",
       "eu_accepted": true,
-      "ch_accepted": true,
-      "active": true
-    }, {
-      "name": "Wondof 2019-nCoV Antigen Test (Lateral Flow Method)",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "Guangzhou Wondfo Biotech Co. Ltd., China",
-      "swiss_test_kit": "23",
-      "manufacturer_code_eu": "1312",
-      "eu_accepted": false,
-      "ch_accepted": true,
-      "active": true
-    }, {
-      "name": "Biozek covid-19 Antigen Rapidtest BCOV-502",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "Inzek International Trading B.V, Apeldoorn (NL)",
-      "swiss_test_kit": "27",
-      "manufacturer_code_eu": "1665",
-      "eu_accepted": false,
-      "ch_accepted": true,
-      "active": true
-    }, {
-      "name": "COVID-19 Antigen Detection Kit",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "(Hangzhou) Bioengineering Co. Ltd., China",
-      "swiss_test_kit": "30",
-      "manufacturer_code_eu": "1501",
-      "eu_accepted": false,
       "ch_accepted": true,
       "active": true
     }, {
@@ -401,16 +311,6 @@
       "swiss_test_kit": "2",
       "manufacturer_code_eu": "1232",
       "eu_accepted": true,
-      "ch_accepted": true,
-      "active": true
-    }, {
-      "name": "mö-screen Corona Antigen Testr",
-      "type": "Rapid immunoassay",
-      "type_code": "LP217198-3",
-      "manufacturer": "möLab GmbH, Langenfeld (D)",
-      "swiss_test_kit": "-",
-      "manufacturer_code_eu": "1779",
-      "eu_accepted": false,
       "ch_accepted": true,
       "active": true
     }
