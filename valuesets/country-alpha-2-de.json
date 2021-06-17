@@ -1203,7 +1203,7 @@
             "system": "http://iso-3166-1_alpha-2"
         },
         {
-            "short": NaN,
+            "short": "NA",
             "display": "Namibia",
             "lang": "de",
             "active": "true",
