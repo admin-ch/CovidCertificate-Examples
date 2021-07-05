@@ -904,6 +904,17 @@
       "eu_accepted": true,
       "ch_accepted": true,
       "active": true
+    },
+    {
+      "name": "COVID-19 Antigen Detection Kit",
+      "type": "Rapid immunoassay",
+      "type_code": "LP217198-3",
+      "manufacturer": "New Gene(Hangzhou)Bioengineering Co., Ltd.",
+      "swiss_test_kit": "",
+      "manufacturer_code_eu": "1501",
+      "eu_accepted": true,
+      "ch_accepted": true,
+      "active": true
     }
   ]
 }
