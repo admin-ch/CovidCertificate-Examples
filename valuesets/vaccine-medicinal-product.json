@@ -1,6 +1,6 @@
 {
   "valueSetId": "vaccines-covid-19-names",
-  "valueSetDate": "2021-04-27",
+  "valueSetDate": "2021-09-20",
   "valueSetValues": {
     "EU/1/20/1528": {
       "display": "Comirnaty",
@@ -17,7 +17,7 @@
       "version": ""
     },
     "EU/1/21/1529": {
-      "display": "Vaxzevria",
+      "display": "Vaxzevria (previously COVID-19 Vaccine AstraZeneca)",
       "lang": "en",
       "active": true,
       "system": "https://ec.europa.eu/health/documents/community-register/html/",
