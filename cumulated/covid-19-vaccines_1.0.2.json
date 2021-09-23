@@ -37,7 +37,7 @@
       "active": true
     }, {
       "name": "BBIBP-CorV (Vero Cells)",
-      "code":"CH/1/20/0001",
+      "code":"BBIBP-CorV",
       "prophylaxis": "COVID-19 Vaccine",
       "prophylaxis_code": "J07BX03",
       "auth_holder": "China Sinopharm International Corp. - Beijing location",
@@ -45,7 +45,7 @@
       "active": true
     }, {
       "name": "SARS-CoV-2 Vaccine (Vero Cell), Inactivated(lnCoV)",
-      "code":"CH/1/20/0002",
+      "code":"Inactivated-SARS-CoV-2-Vero-Cell",
       "prophylaxis": "COVID-19 Vaccine",
       "prophylaxis_code": "J07BX03",
       "auth_holder": "Sinopharm Weiqida Europe Pharmaceutical s.r.o. - Prague location",
@@ -53,7 +53,7 @@
       "active": true
     }, {
       "name": "COVID-19 Vaccine (Vero Cell), Inactivated/ Coronavac",
-      "code":"CH/1/20/0003",
+      "code":"CoronaVac",
       "prophylaxis": "COVID-19 Vaccine",
       "prophylaxis_code": "J07BX03",
       "auth_holder": "Sinovac Biotech",
@@ -61,7 +61,7 @@
       "active": true
     }, {
       "name": "Covishield (ChAdOx1_nCoV-19)",
-      "code":"CH/1/20/0004",
+      "code":"Covishield",
       "prophylaxis": "COVID-19 Vaccine",
       "prophylaxis_code": "J07BX03",
       "auth_holder": "Serum Institute Of India Private Limited",

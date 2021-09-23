@@ -58,7 +58,7 @@
       "system": "http://ec.europa.eu/temp/vaccineproductname",
       "version": "1.0"
     },
-    "CH/1/20/0001": {
+    "BBIBP-CorV": {
       "display": "BBIBP-CorV (Vero Cells)",
       "lang": "en",
       "active": true,
@@ -66,13 +66,13 @@
       "version": "1.0"
     },
     "Inactivated-SARS-CoV-2-Vero-Cell": {
-      "display": "Inactivated SARS-CoV-2 (Vero Cell)",
+      "display": "SARS-CoV-2 Vaccine (Vero Cell), Inactivated(lnCoV)",
       "lang": "en",
       "active": true,
       "system": "http://ec.europa.eu/temp/vaccineproductname",
       "version": "1.0"
     },
-    "CH/1/20/0003": {
+    "CoronaVac": {
       "display": "COVID-19 Vaccine (Vero Cell), Inactivated/ Coronavac",
       "lang": "en",
       "active": true,
@@ -86,14 +86,7 @@
       "system": "http://ec.europa.eu/temp/vaccineproductname",
       "version": "1.0"
     },
-    "CH/1/20/0002": {
-      "display": "SARS-CoV-2 Vaccine (Vero Cell), Inactivated(lnCoV)",
-      "lang": "en",
-      "active": true,
-      "system": "n/a",
-      "version": "1.0"
-    },
-    "CH/1/20/0004": {
+    "Covishield": {
       "display": "Covishield (ChAdOx1_nCoV-19)",
       "lang": "en",
       "active": true,
