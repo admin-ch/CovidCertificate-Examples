@@ -22,6 +22,20 @@
       "active": true,
       "version": "2021-01",
       "system": "http://www.whocc.no/atc"
+    },
+    "protein subunit": {
+      "display": "protein subunit",
+      "lang": "en",
+      "active": false,
+      "version": "2021-09",
+      "system": ""
+    },
+    "inactivated pathogen": {
+      "display": "inactivated pathogen",
+      "lang": "en",
+      "active": false,
+      "version": "2021-09",
+      "system": ""
     }
   }
 }

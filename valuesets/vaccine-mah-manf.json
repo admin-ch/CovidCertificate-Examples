@@ -99,6 +99,13 @@
       "active": true,
       "system": "http://ec.europa.eu/temp/vaccinemanufacturer",
       "version": "1.0"
+    },
+    "ORG-100001981": {
+      "display": "Serum Institute Of India Private Limited",
+      "lang": "en",
+      "active": true,
+      "system": "n/a",
+      "version": "1.0"
     }
   }
 }
