@@ -28,7 +28,7 @@ There is a general part, all covid certificate types must include.
         {
             // Family name
             // String max length 50 chars
-            "fn": "d'Arsøns - van Hale",
+            "fn": "d'Arsøns - van Halen",
             // Given name
             // String max length 50 chars
             "gn": "François-Joan",
