@@ -1,3 +1,4 @@
+# :warning: Those value-sets are available until December 31, 2021. They will be removed from the repository after this date. The data will be available through our api. For more information, consult the [api-doc](https://github.com/admin-ch/CovidCertificate-Apidoc#generation-revocation-and-value-set-api-doc). :warning:
 # Cumulated
 
 ## Mapping
