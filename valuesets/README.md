@@ -1,3 +1,5 @@
+# :warning: Countries, Rapid-Tests and Vaccines value-sets are available until December 31, 2021. They will be removed from the repository after this date. The data will be available through our api. For more information, consult the [api-doc](https://github.com/admin-ch/CovidCertificate-Apidoc#generation-revocation-and-value-set-api-doc). :warning:
+
 # Valuesets
 
 The defined valuesets are based on the schema [valueset.json](https://github.com/eu-digital-green-certificates/ehn-dgc-schema/blob/main/valueset.json) published by the EU ([GitHub Repo](https://github.com/eu-digital-green-certificates/ehn-dgc-schema)).
