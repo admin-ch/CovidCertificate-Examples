@@ -1,4 +1,4 @@
-# :warning: Countries, Rapid-Tests and Vaccines value-sets are available until December 31, 2021. They will be removed from the repository after this date. The data will be available through our api. For more information, consult the [api-doc](https://github.com/admin-ch/CovidCertificate-Apidoc#generation-revocation-and-value-set-api-doc). A version of the cumulated value-set will be updated through the file cumulated_value-sets_YYYYMMDD.json at the root of this repository :warning:
+# :warning: Rapid-Tests value-sets are available until December 31, 2021. They will be removed from the repository after this date. The data will be available through our api. For more information, consult the [api-doc](https://github.com/admin-ch/CovidCertificate-Apidoc#generation-revocation-and-value-set-api-doc). A version of the cumulated value-set will be updated through the file cumulated_value-sets_YYYYMMDD.json at the root of this repository :warning:
 
 # Valuesets
 
